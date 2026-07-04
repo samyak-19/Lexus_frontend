@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import api from "@/services/api";
+import Link from "next/link";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -100,6 +101,15 @@ export default function LoginPage() {
           </button>
 
         </form>
+        <p className="text-center mt-6 text-slate-600">
+  Don't have an account?{" "}
+  <Link
+    href="/signup"
+    className="text-blue-600 font-semibold hover:underline"
+  >
+    Create Account
+  </Link>
+</p>
       </div>
     </main>
   );
