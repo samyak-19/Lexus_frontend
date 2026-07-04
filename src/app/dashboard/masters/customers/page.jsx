@@ -44,9 +44,9 @@ export default function CustomersPage() {
   };
 
   return (
-    <div className="p-8">
+    <div className="p-8 text-black">
 
-      <div className="flex justify-between items-center mb-8">
+      <div className="flex justify-between items-center mb-8 text-black">
 
         <h1 className="text-3xl font-bold">
           Customers
@@ -77,7 +77,7 @@ export default function CustomersPage() {
       {loading ? (
         <p>Loading...</p>
       ) : customers.length === 0 ? (
-        <div className="bg-white rounded-xl p-10 text-center shadow">
+        <div className="bg-white rounded-xl p-10 text-center shadow text-gray-800">
           <h2 className="text-2xl font-semibold">
             No Customers Found
           </h2>

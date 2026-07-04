@@ -120,7 +120,7 @@ export default function DashboardLayout({ children }) {
 
           <button
             onClick={logout}
-            className="w-full rounded-lg bg-red-600 py-3 hover:bg-red-700"
+            className="w-30 rounded-lg bg-red-600 py-3 hover:bg-red-700"
           >
             Logout
           </button>

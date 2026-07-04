@@ -67,7 +67,7 @@ export default function CompanyPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-10">
+    <div className="min-h-screen bg-gray-100 p-10 text-black">
 
       <div className="flex justify-between items-center mb-8">
 
