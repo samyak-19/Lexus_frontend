@@ -1,36 +1,234 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Lexus ERP - Frontend
 
-## Getting Started
+A modern **Enterprise Resource Planning (ERP)** frontend built with **Next.js** that provides a fast, responsive, and intuitive interface for managing business operations.
 
-First, run the development server:
+---
+
+## 🌟 Key Highlights
+
+- 🔐 JWT Authentication
+- 🏢 Multi-Company Management
+- 👥 Customer Management
+- 🚚 Supplier Management
+- 📊 Dashboard
+- ⚡ Responsive UI
+- 🔒 Company-wise Data Isolation
+- 🧩 Reusable Components
+- 🚀 Production-ready Architecture
+
+---
+
+## 🎯 Project Objective
+
+Lexus ERP is designed to help businesses manage master data efficiently. This MVP focuses on Companies, Customers, and Suppliers while providing a scalable architecture for future Inventory, Sales, Purchase, and Accounting modules.
+
+---
+
+## 📌 Repositories
+
+**Frontend**
+
+https://github.com/samyak-19/Lexus_frontend
+
+**Backend**
+
+https://github.com/samyak-19/Lexus_backend
+
+---
+
+## 🌐 Live Demo
+
+Frontend:
+https://your-vercel-url.vercel.app
+
+Backend API:
+https://your-render-url.onrender.com
+
+---
+
+## ✨ Features
+
+### Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
+
+### Company
+- Create Company
+- Edit Company
+- Delete Company
+- Company Selection
+
+### Customer
+- Create Customer
+- Edit Customer
+- Delete Customer
+- Opening Balance
+
+### Supplier
+- Create Supplier
+- Edit Supplier
+- Delete Supplier
+- Opening Balance
+
+### Dashboard
+- Customer Statistics
+- Supplier Statistics
+- Clean Dashboard UI
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js |
+| Library | React |
+| Styling | Tailwind CSS |
+| HTTP | Axios |
+| Notifications | React Hot Toast |
+| Modal | React Modal |
+
+---
+
+## 🏗 Architecture
+
+```text
+User
+ │
+ ▼
+Next.js Frontend
+ │
+ ▼
+Axios
+ │
+ ▼
+Express REST API
+ │
+ ▼
+Prisma ORM
+ │
+ ▼
+PostgreSQL (Supabase)
+```
+
+---
+
+## 📂 Folder Structure
+
+```text
+src
+├── app
+├── components
+├── services
+├── hooks
+└── styles
+```
+
+---
+
+## ⚙ Installation
+
+```bash
+git clone https://github.com/samyak-19/Lexus_frontend.git
+cd Lexus_frontend
+npm install
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create `.env.local`
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+```
+
+---
+
+## ▶ Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deploy on **Vercel**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Environment Variable:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```env
+NEXT_PUBLIC_API_URL=https://your-render-url.onrender.com/api
+```
 
-## Deploy on Vercel
+Build Command
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📸 Screenshots
+
+Add screenshots here:
+
+- Login
+- Signup
+- Dashboard
+- Company
+- Customer
+- Supplier
+
+---
+
+## 🚧 Future Scope
+
+- Inventory Management
+- Purchase Module
+- Sales Module
+- Reports
+- Analytics
+- Role-Based Access Control
+- Dark Mode
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Samyak Bahade**
+
+GitHub:
+https://github.com/samyak-19
+
+LinkedIn:
+(Add your LinkedIn profile)
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
